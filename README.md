@@ -35,7 +35,6 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
@@ -52,7 +51,36 @@ todo
 <!-- GETTING STARTED -->
 ## Getting Started
 
-todo
+### Directory Overview
+
+Source files are placed in a folder named `src`. 
+
+```
+Project Root/
+│
+│
+├── src/
+│   └── public/
+│       ├── css/
+│       │   
+│       │
+│       ├── images/
+|       |
+│       |
+│       ├── html/
+│       │
+│       ├── js/
+│       |
+│       └── index.html
+├── docs/
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+
+
 
 ### Installation
 
