@@ -75,7 +75,7 @@ Project Root/
 ├── docs/
 │
 ├── .gitignore
-
+├── LICENSE
 └── README.md
 ```
 
