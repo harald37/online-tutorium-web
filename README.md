@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/SwiftPredator/online-tutorium-web/">
-    <img src="src/public/images/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="src/public/images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Online-Tutorium Webprojecte</h3>
