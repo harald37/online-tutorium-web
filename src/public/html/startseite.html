@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      *{
+        box-sizing: border-box;
+        font-family: "Lucida Sans", sans-serif;
+      }
+      .flex-container {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+      }
+      table{
+      	margin: 0 auto;
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+      }
+      td, th {
+          border: 1px solid #dddddd;
+          text-align: center;
+          padding: 10px;
+      }
+
+      tr:nth-child(even) {
+          background-color: #dddddd;
+      }
+
+      .rechts{
+        padding: 10px;
+      }
+
+      @media only screen and (min-width: 750px) {
+        .desktop-1-cols {width: 8.33%;}
+        .desktop-2-cols {width: 16.66%;}
+        .desktop-3-cols {width: 25.00%;}
+        .desktop-4-cols {width: 33.33%;}
+        .desktop-5-cols {width: 41.66%;}
+        .desktop-6-cols {width: 50.00%;}
+        .desktop-7-cols {width: 58.33%;}
+        .desktop-8-cols {width: 66.66%;}
+        .desktop-9-cols {width: 75.00%;}
+        .desktop-10-cols {width: 83.33%;}
+        .desktop-11-cols {width: 91.66%;}
+        .desktop-12-cols {width: 100.00%;}
+      }
+    </style>
+  <title>Online Tutorium</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="flex-container">
+
+
+    <div class="desktop-9-cols">
+      <h1>Online-Tutorium</h1>
+  	</div>
+      <div class="desktop-3-cols rechts" align="center">
+
+      <h3>
+      <img src="logout.png" alt="logout" style="width:48px;height:48px;">
+      Log-Out</h3>
+
+    </div>
+
+    <!-- Zeitplan -->
+    <div id="zeitplan" class="desktop-9-cols">
+      <table>
+        <table style="width:100%">
+
+        <tr>
+          <th>Hallo</th>
+          <th>Montag</th>
+          <th>Dienstag</th>
+          <th>Mittwoch</th>
+          <th>Donnerstag</th>
+          <th>Freitag</th>
+        </tr>
+        <tr>
+          <th>12:00 - 14:00 Uhr</th>
+          <th>Java</th>
+          <th>Haskell</th>
+          <th>JavaScript</th>
+          <th>Cobol</th>
+          <th>Java</th>
+        </tr>
+        <tr>
+          <th>14:00 - 16:00 Uhr</th>
+          <th>C</th>
+          <th>Haskell</th>
+          <th>C#</th>
+          <th>Cobol</th>
+          <th>C</th>
+
+        </tr>
+        <tr>
+          <th>16:00 - 18:00 Uhr</th>
+          <th>C</th>
+          <th>Java</th>
+          <th>C#</th>
+          <th>Java</th>
+          <th>C</th>
+
+        </tr>
+        <tr>
+          <th>18:00 - 20:00 Uhr</th>
+          <th>Java</th>
+          <th>Ruby</th>
+          <th>JavaScript</th>
+          <th>Ruby</th>
+          <th>Java</th>
+
+        </tr>
+        <tr>
+          <th>20:00 - 20:00 Uhr</th>
+          <th>Phyton</th>
+          <th>Ruby</th>
+          <th>Phyton</th>
+          <th>Ruby</th>
+          <th>Phyton</th>
+
+        </tr>
+      </table>
+    </div>
+
+    <!-- Warteschlange -->
+    <div id="warteschlange" class="desktop-3-cols rechts" align="center">
+      <h3>Warteschlange:</h3>
+      Personen in der Schlange: </br>5</br>
+      <button type="button" name="button">Eintragen</button>
+    </div>
+
+
+
+    <!-- FAQ -->
+    <div id="faq" class="desktop-9-cols">
+      <h1>FAQ</h1>
+      <table>
+        <table style="width:100%">
+          <tr>
+            <th>Wie erreiche ich einen Tutor?</th>
+            <th>Trage dich in die Warteschlange über den Button "eintragen" ein und warte bis du an der Reihe bist</th>
+          </tr>
+          <tr>
+            <th>Werden noch weitere Programmiersprachen angeboten?</th>
+            <th>Nein, derzeit sind keine Hilfen für weitere Programmiersprachen vorgesehen</th>
+          </tr>
+          <tr>
+            <th>Kann ich mir schon vor 12 Uhr einen Platz reservieren?</th>
+            <th>Nein, die Warteschlange ist erst ab 12 Uhr aktiv</th>
+          </tr>
+          <tr>
+            <th>Der Tutor konnte mir nicht weiterhelfen, was nun?</th>
+            <th>Schau nach, ob die hilfreichen Links dein Problem lösen können</th>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Links -->
+      <div id="links" class="desktop-3-cols rechts" align="center">
+        <h3>Hilfreiche Links:</h3>
+        <table>
+          <tr>
+            <th>w3schools.com</th>
+          </tr>
+          <tr>
+            <th>tutorialpoints.com</th>
+          </tr>
+          <tr>
+            <th>stackoverflow.com</th>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+  </body>
+</html>
