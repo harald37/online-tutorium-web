@@ -1,0 +1,48 @@
+
+a {
+	text-decoration: none;
+	color: #034C9A;
+}
+
+.text_title {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+}
+
+.text_small {
+	 font-size: 12px;
+	 font-family: "Arial", sans-serif;
+}
+
+.text_link {
+	 font-size: 20px;
+	 font-family: "Arial", sans-serif;
+}	
+
+.text_general {
+	 font-size: 20px;
+	 font-family: "Arial", sans-serif;
+	 }
+	
+.button {
+	 color: white;
+	 background-color: #034C9A;
+	 font-size: 20px;
+	 font-family: "Arial", sans-serif;
+	 padding: 11px 25px;
+	 text-decoration: none;
+	 border: none;
+}
+
+.textbox {
+	width: 100%;
+	padding: 12px 20px;
+}
+
+#wrapper{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
